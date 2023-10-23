@@ -13,7 +13,7 @@ const Hero = () => {
                 <h1 className=' pl-5 pt-2'>Mocean-Therpy</h1>
             </div>
     
-    </section>
+    </section>==
 
     </>
   )
