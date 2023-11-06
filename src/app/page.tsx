@@ -1,17 +1,19 @@
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
+import Welcome from '../components/Welcome'
+import Banner from '@/components/Banner'
+import Section from '@/components/Section'
 
 
 export default function Home() {
   return (
     <>
-    <div>
-    <NavBar />
-    <Hero />
-   
 
-    </div>
-      
+    <section>
+      <Banner />
+    </section>    
+
+    <section>
+    <Section />
+    </section>  
 
 
     

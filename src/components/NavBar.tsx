@@ -13,7 +13,7 @@ const NavBar = () => {
 
   return (
     <>
-        <nav className='bg-black'>
+        <nav className='bg-white top-0'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between h-16'>
                     <div className='flex items-center'>
@@ -31,17 +31,17 @@ const NavBar = () => {
                                     Welcome
                                 </Link>
                                 <Link 
-                                href="/"
+                                href="/sessionsandfees"
                                 className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
-                                    Sessions and Fees
+                                    Sessions & Fees
                                 </Link>
                                 <Link 
-                                href="/"
+                                href="/booking"
                                 className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
                                     Booking
                                 </Link>
                                 <Link 
-                                href="/"
+                                href="/about"
                                 className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
                                     About
                                 </Link>
@@ -94,17 +94,17 @@ const NavBar = () => {
                                     Welcome
                                 </Link>
                                 <Link 
-                                href="/"
+                                href="/sessionsandfees"
                                 className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
                                     Sessions and Fees
                                 </Link>
                                 <Link 
-                                href="/"
+                                href="/booking"
                                 className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
                                     Booking
                                 </Link>
                                 <Link 
-                                href="/"
+                                href="/about"
                                 className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
                                     About
                                 </Link>
