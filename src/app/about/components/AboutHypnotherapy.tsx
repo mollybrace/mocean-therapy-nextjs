@@ -18,8 +18,7 @@ const AboutHypnotherapy = () => {
             </p>
             <p>
             You will always be in control. Any protective behaviour is a trance state; triggered by our autonomic nervous system. We all go in and out of trance naturally - you have probably noticed times in your day when you are &#39;in a trance&#39;. For example, can you remember
-            brushing your teeth this morning? This is a trance state when we are triggered into protection, for
-            example, anxiety. 
+            brushing your teeth this morning? This is a trance state when we are triggered into protection, for example, anxiety. 
             </p>
             <br></br>
             <p>

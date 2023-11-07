@@ -47,9 +47,8 @@ const Form = ({email, message, fullname }: Formprops) => {
           <textarea
             name="message"
             placeholder='Message...'
-            type='text'
-            rows="10" 
-            cols="60"
+            rows={10}
+            cols={60}
             className='border-blue-morelli border'
             required
 

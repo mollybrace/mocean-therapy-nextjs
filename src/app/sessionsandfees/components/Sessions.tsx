@@ -22,7 +22,7 @@ const Sessions = () => {
               Regarding how many sessions you&apos;ll require, everyone is different and I approach each client as a clean slate. 
             </p>
             <p className="pb-5">
-              I can say that most therapies require long-term solutions, but that\'s not the case here. I aim to teach each client how to begin treating themselves, and the sessions can continue until you feel the necessary changes have come to take place.
+              I can say that most therapies require long-term solutions, but that&apos;s not the case here. I aim to teach each client how to begin treating themselves, and the sessions can continue until you feel the necessary changes have come to take place.
             </p>
           </div>
         </div>
