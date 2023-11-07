@@ -24,26 +24,31 @@ const NavBar = () => {
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <div className='ml-4 flex items-center space-x-4'>
+                        <div className='ml-4 flex items-center space-x-5'>
                             <Link 
                                 href="/"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
+                                className='hover:underline rounded-lg p-2'>
                                     Welcome
                                 </Link>
                                 <Link 
                                 href="/sessionsandfees"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
+                                className='hover:underline rounded-lg p-2'>
                                     Sessions & Fees
                                 </Link>
                                 <Link 
+                                href="/about"
+                                className='hover:underline rounded-lg p-2'>
+                                    About
+                                </Link>
+                                <Link 
                                 href="/booking"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
+                                className='hover:underline rounded-lg p-2'>
                                     Booking
                                 </Link>
                                 <Link 
-                                href="/about"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
-                                    About
+                                href="/contact"
+                                className='hover:underline rounded-lg p-2'>
+                                    Contact
                                 </Link>
                         </div>
                     </div>
@@ -90,23 +95,28 @@ const NavBar = () => {
                     <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                     <Link 
                                 href="/"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
+                                className='hover:underline rounded-lg p-4'>
                                     Welcome
                                 </Link>
                                 <Link 
                                 href="/sessionsandfees"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
+                                className='hover:underline rounded-lg p-4'>
                                     Sessions and Fees
                                 </Link>
                                 <Link 
+                                href="/about"
+                                className='hover:underline rounded-lg p-4'>
+                                    About
+                                </Link>
+                                <Link 
                                 href="/booking"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
+                                className='hover:underline rounded-lg p-4'>
                                     Booking
                                 </Link>
                                 <Link 
-                                href="/about"
-                                className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
-                                    About
+                                href="/contact"
+                                className='hover:underline rounded-lg p-4'>
+                                    Contact
                                 </Link>
 
                     </div>

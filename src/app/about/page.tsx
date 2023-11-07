@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import AboutMe from './components/AboutMe'
 import Banner from './components/Banner'
+import AboutHypnotherapy from './components/AboutHypnotherapy'
 
 const About = () => {
   return (
@@ -14,6 +15,9 @@ const About = () => {
       <AboutMe />
     </section>
     
+    <section>
+      <AboutHypnotherapy />
+    </section>
   </div>
   
   )

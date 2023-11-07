@@ -9,9 +9,14 @@ type Formprops = {
 const Form = ({email, message, fullname }: Formprops) => {
   return (
 <form
+  className='p-10'
           // onSubmit={handleSubmit}
           >
-          <label htmlFor={fullname}>Full name</label>
+          <label 
+            htmlFor={fullname}
+            >
+              Full name
+          </label>
           
           <br/>
           
@@ -19,6 +24,8 @@ const Form = ({email, message, fullname }: Formprops) => {
             placeholder='Full Name...'
             type='text'
             name="fullname"
+            className='border-blue-morelli border'
+            required
             />
           <br/>
         
@@ -28,6 +35,9 @@ const Form = ({email, message, fullname }: Formprops) => {
             type="text"
             name="email"
             placeholder='Email...'
+            className='border-blue-morelli border'
+            required
+
             />
            <br/>
 
@@ -40,9 +50,17 @@ const Form = ({email, message, fullname }: Formprops) => {
             type='text'
             rows="10" 
             cols="60"
+            className='border-blue-morelli border'
+            required
+
           />
         <br></br>
-          <button type='submit'>Submit</button>
+          <button 
+          type='submit'
+          className='border-blue-morelli border rounded p-4'
+          >
+            Submit
+          </button>
         </form>
     )
 }

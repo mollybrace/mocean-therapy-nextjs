@@ -1,17 +1,20 @@
 "use client"
 import React, { use, useState } from 'react'
-import Form from './components/Form';
+import Form from '../contact/components/Form';
 import CalendlyWidget from './components/Calendly';
+import Banner from './components/Banner';
+
 
 
 
 const page = () => {
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
 
   return (
     <div>
+      <section>
+        <Banner />
+      </section>
+
       <section>
           <CalendlyWidget />
       </section>

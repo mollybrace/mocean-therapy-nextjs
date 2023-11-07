@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sessions = () => {
     return (
-        <div className='mx-10'>
+        <div className='pt-10 mx-10'>
         <div>
           <p className='text-xl font-bold py-5'>How long is a session?</p>
           <p>Typical sessions will last 90 minutes.</p>

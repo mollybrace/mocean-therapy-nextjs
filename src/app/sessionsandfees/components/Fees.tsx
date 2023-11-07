@@ -11,8 +11,8 @@ const Fees = () => {
       </div>
 
       <div>
-        <p className='text-xl font-bold py-5'>How do I pay?</p>
-        <p>After our sessions, you will receive an invoice to take to your insurer or have the necessary details to make a direct transfer.</p>
+        <p className='text-xl font-bold py-10'>How do I pay?</p>
+        <p className='pb-10'>After our sessions, you will receive an invoice to take to your insurer or have the necessary details to make a direct transfer.</p>
       </div>
     </div>
   )

@@ -11,7 +11,8 @@ const config: Config = {
     colors: {
       "champagne-beige": "#E9C8ADff",
       "moonstone": "#7CB5BC",
-      "dogwood": "#C8B0A8"
+      "dogwood": "#C8B0A8",
+      "blue-morelli": "#4498A2"
     },
     extend: {
       backgroundImage: {

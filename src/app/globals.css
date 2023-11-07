@@ -29,8 +29,13 @@
 }
 
 .widget-container {
-  height: 900px;
-  overflow: hidden;
+  min-height: 1200px;
+  min-width: 320px
+}
+
+.widget-container-large {
+  max-height: 100px;
+  min-width: 320px
 }
 
 /* @layer components {
