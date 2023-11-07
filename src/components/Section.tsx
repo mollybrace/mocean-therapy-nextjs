@@ -39,7 +39,7 @@ const Section = () => {
             <p>Cognitive Hypnotherapy considers each client to be unique and to be experiencing their own
             protective behaviour. I work at the pace required by the client. Treatment is bespoke, caring
             and flexible.</p>
-            <a href="/contact"><p className='underline hover:cursor'>Contact me today for more information</p></a>
+            <a href="/contact"><p className='underline hover:cursor'>Contact me for more information</p></a>
         </div>
 
         <div className="flex flex-col items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3">

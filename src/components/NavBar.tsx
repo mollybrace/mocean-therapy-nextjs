@@ -25,11 +25,6 @@ const NavBar = () => {
                     </div>
                     <div className="hidden md:block">
                         <div className='ml-4 flex items-center space-x-5'>
-                            <Link 
-                                href="/"
-                                className='hover:underline rounded-lg p-2'>
-                                    Welcome
-                                </Link>
                                 <Link 
                                 href="/sessionsandfees"
                                 className='hover:underline rounded-lg p-2'>
@@ -93,15 +88,10 @@ const NavBar = () => {
             {isClick && (
                 <div className='md:hidden'>
                     <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                    <Link 
-                                href="/"
-                                className='hover:underline rounded-lg p-4'>
-                                    Welcome
-                                </Link>
                                 <Link 
                                 href="/sessionsandfees"
                                 className='hover:underline rounded-lg p-4'>
-                                    Sessions and Fees
+                                    Sessions & Fees
                                 </Link>
                                 <Link 
                                 href="/about"
