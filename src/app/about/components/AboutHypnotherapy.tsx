@@ -5,8 +5,8 @@ const AboutHypnotherapy = () => {
     <div className='mx-10 pb-10'>
         <h2 className='text-xl font-bold py-5'> Is hypnotherapy for me?</h2>
             <p>I primarily work with clients struggling with anxiety, depression, addiction, or stress. Cognitive
-            Hypnotherapy is built on the principle of working within the client's model of the world. Therefore, I
-            do not strictly work towards these 'labels'. Instead, I approach each session with unconditional
+            Hypnotherapy is built on the principle of working within the client\'s model of the world. Therefore, I
+            do not strictly work towards these \'labels\'. Instead, I approach each session with unconditional
             positive regard and respect and hold space for each client so they feel comfortable and heard. Then,
             together, we build their problem state to help create their solution state.</p>
 

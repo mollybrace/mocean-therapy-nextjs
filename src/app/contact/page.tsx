@@ -6,10 +6,12 @@ import Banner from './components/Banner';
 
 
 const page = () => {
-    const [fullname, setFullname] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-  
+    // const [fullname, setFullname] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [message, setMessage] = useState("");
+    const fullname = "";
+    const email = ""
+    const message = ""
 
   return (
     <div>
