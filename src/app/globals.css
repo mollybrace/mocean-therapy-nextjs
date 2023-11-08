@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * { 
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto';
   color: black;
 }
 

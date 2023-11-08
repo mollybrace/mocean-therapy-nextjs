@@ -5,17 +5,20 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <>
-    <section className='bg-twitter-blue h-72'>
-        <div className='flex justify-center w-screen h-72 bg-center bg-no-repeat bg-cover'>
-            <Image
-              src="/beach-image.jpg"
+    <section>
+      <div className='w-full'> 
+        <div className="relative pt-56 h-72 bg-center bg-no-repeat w-full bg-cover bg-[url('/hero.jpg')]">
+            {/* <Image
+              src="/hero.jpg"
               alt="a beach at sunset"
-              height={500}
-              width={500}
-              className='object-cover min-w-full'
+              height={600}
+              width={600}
+              className='object-contain min-w-full md:object-cover w-full h-full'
             >
-            </Image>
+            </Image> */}
         </div>
+
+      </div>
     </section>
 
     </>

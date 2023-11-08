@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className='relative overflow-hidden'>
+        <main className='relative overflow-hidden bg-moonstone'>
           <NavBar />
           <Hero />
       <main className={inter.className}>

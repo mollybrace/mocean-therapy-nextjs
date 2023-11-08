@@ -9,8 +9,8 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      "champagne-beige": "#E9C8ADff",
-      "moonstone": "#7CB5BC",
+      "champagne-beige": "#002F37",
+      "moonstone": "#EAF1F8",
       "dogwood": "#C8B0A8",
       "blue-morelli": "#4498A2"
     },
@@ -25,3 +25,6 @@ const config: Config = {
   plugins: [require("daisyui")],
 }
 export default config
+
+//hex codes for darker colour- 00434B, 003C48, 005361, 002F37~
+

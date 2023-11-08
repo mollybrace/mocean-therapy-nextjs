@@ -20,7 +20,8 @@ const AboutMe = () => {
           </div>
 
           <div className='flex flex-col items-center max-w-full md:w-1/2'>
-            <p className='text-center'>Hello my name is Oisin, originally born in Ireland I am a certified NLP practitioner based in Torronto, Canada. </p>
+            <p className='text-left'>Hello, my name is Oisin, originally born in Ireland I am a certified NLP practitioner and Quest Cognitive Hypnotherapist based in Vancouver, Canada. Our subconscious mind is constantly shaping how we live our lives. I’m all about helping people tap into this incredible resource to overcome
+            challenges and make positive changes in their lives. </p>
           </div>
         </div>   
     </div>

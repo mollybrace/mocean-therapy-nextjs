@@ -8,7 +8,7 @@ type Formprops = {
 
 const Form = ({email, message, fullname }: Formprops) => {
   return (
-<div className='pr-10 mr-10 flex border'>
+<div className='container items-center max-w-full pr-4 border'>
 <form className='pr-10'
           // onSubmit={handleSubmit}
           >
