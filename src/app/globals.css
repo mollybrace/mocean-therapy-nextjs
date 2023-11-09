@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 * { 
-  font-family: 'Roboto';
   color: black;
 }
 
 :root {
- background-color: rgb(240, 228, 209);
+ background-color: "moonstone";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,6 +35,10 @@
 .widget-container-large {
   max-height: 100px;
   min-width: 320px
+}
+
+.social-icon {
+  fill: "moonstone"; 
 }
 
 /* @layer components {

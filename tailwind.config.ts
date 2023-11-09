@@ -15,6 +15,9 @@ const config: Config = {
       "blue-morelli": "#4498A2"
     },
     extend: {
+      fontFamily: {
+        sans:['var(--font-roboto)']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
