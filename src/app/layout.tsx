@@ -9,7 +9,8 @@ import { Roboto } from 'next/font/google';
 
 const roboto = Roboto({
    subsets: ['latin'],
-   weight: ['300'],
+   weight: ['300', '400', '500', '700', '900'],
+   style: ['normal', 'italic'],
    variable: '--font-roboto'
   })
 
@@ -25,11 +26,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} font-sans`}>
+      <body className={roboto.className}>
         <main className='relative overflow-hidden bg-moonstone'>
           <NavBar />
           <Hero />
-      <main className={roboto.className}>
+      <main >
         {children}
         </main>
           <Footer />
@@ -38,3 +39,6 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+//className={`${roboto.variable}`}

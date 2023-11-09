@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
     <section>
-      <div className='w-full border flex pt-0 mx-auto h-72'> 
+      <div className='w-full flex pt-0 mx-auto hero-container-small md:hero-container-large'> 
         <div className="h-full w-full bg-center bg-cover bg-no-repeat bg-[url('/hero.jpg')]">
             {/* <Image
               src="/hero.jpg"

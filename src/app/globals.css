@@ -37,6 +37,16 @@
   min-width: 320px
 }
 
+.hero-container-small {
+  height: 450px;
+  width: 100%;
+}
+
+.hero-container-large {
+  height: 000px;
+  width: 100%;
+}
+
 .social-icon {
   fill: "moonstone"; 
 }

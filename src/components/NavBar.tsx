@@ -14,17 +14,22 @@ const NavBar = () => {
   return (
     <>
         <nav className='bg-white top-0'>
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                <div className='flex items-center justify-between h-16'>
+            <div className='max-w-full border mx-auto px-4 sm:px-6 lg:px-8'>
+                <div className='flex w-full items-center justify-between h-16'>
                     <div className='flex items-center'>
                         <div className='flex-shrink-0'>
                             <Link href="/" className='text-white'>
-                                Logo
+                                Mocean Therapy
                             </Link>
                         </div>
                     </div>
                     <div className="hidden md:block">
                         <div className='ml-4 flex items-center space-x-6'>
+                                <Link 
+                                href="/"
+                                className='hover:underline rounded-lg p-2'>
+                                    Welcome
+                                </Link>
                                 <Link 
                                 href="/sessionsandfees"
                                 className='hover:underline rounded-lg p-2'>
@@ -87,25 +92,25 @@ const NavBar = () => {
             </div>
             {isClick && (
                 <div className='md:hidden'>
-                    <div className='px-2 pt-2 pb-3 space-y-1 sm:px-1'>
+                    <div className='flex flex-row gap-4 x-2 pt-3 pb-3 space-y-2 sm:px-1'>
                                 <Link 
                                 href="/sessionsandfees"
-                                className='hover:underline rounded-lg p-1 flex-nowrap md:p-4'>
+                                className='hover:underline rounded-lg pt-2'>
                                     Sessions & Fees
                                 </Link>
                                 <Link 
                                 href="/about"
-                                className='hover:underline rounded-lg p-4'>
+                                className='hover:underline rounded-lg'>
                                     About
                                 </Link>
                                 <Link 
                                 href="/booking"
-                                className='hover:underline rounded-lg p-4'>
+                                className='hover:underline rounded-lg'>
                                     Booking
                                 </Link>
                                 <Link 
                                 href="/contact"
-                                className='hover:underline rounded-lg p-4'>
+                                className='hover:underline rounded-lg'>
                                     Contact
                                 </Link>
 

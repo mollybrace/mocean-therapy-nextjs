@@ -11,12 +11,12 @@ const config: Config = {
     colors: {
       "champagne-beige": "#002F37",
       "moonstone": "#EAF1F8",
-      "dogwood": "#C8B0A8",
+      "dogwood": "#BBCBD2",
       "blue-morelli": "#4498A2"
     },
     extend: {
       fontFamily: {
-        sans:['var(--font-roboto)']
+        roboto: ['var(--font-roboto)']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -29,5 +29,4 @@ const config: Config = {
 }
 export default config
 
-//hex codes for darker colour- 00434B, 003C48, 005361, 002F37~
 
