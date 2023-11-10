@@ -56,7 +56,7 @@ const Section = () => {
                 />
                 </div>
                 <h2 className='font-bold'>How can I help you?</h2>
-                <p>TWhether it’s managing stress, conquering fears, or breaking free from negative patterns, I’m here to
+                <p>Whether it’s managing stress, conquering fears, or breaking free from negative patterns, I’m here to
                 provide a safe, compassionate, and non-judgmental space for your transformation. I firmly believe
                 that therapy is just another conversation and the fantastic thing about this conversation is often
                 people leave the first session feeling distinctive and curious about what they can accomplish.</p>

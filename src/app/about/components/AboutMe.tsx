@@ -7,12 +7,12 @@ const AboutMe = () => {
     <div className='p-10 max-w-full'>
         <div className="flex flex-col items-center  space-y-10 md:flex-row justify-center md:justify-between">
           <div className='flex flex-col items-center md:w-1/2'>
-          <div className='image-container '>
+          <div className='image-container'>
             <Image
               src="/profile-photo.jpg"
               alt="Oisin O'malley"
-              height={500}
-              width={500}
+              height={600}
+              width={600}
               className='rounded-100'
             />
           </div>

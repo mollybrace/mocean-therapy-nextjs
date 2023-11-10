@@ -3,14 +3,14 @@ import React from 'react'
 const AboutHypnotherapy = () => {
   return (
     <div className='mx-10 pb-10'>
-        <h2 className='text-xl font-bold py-5'> Is hypnotherapy for me?</h2>
+        <h2 className='text-xl font-bold py-5'> Is Hypnotherapy For Me?</h2>
             <p>I primarily work with clients struggling with anxiety, depression, addiction, or stress. Cognitive
             Hypnotherapy is built on the principle of working within the client&apos;s model of the world. Therefore, I
             do not strictly work towards these &apos;labels&apos;. Instead, I approach each session with unconditional
             positive regard and respect and hold space for each client so they feel comfortable and heard. Then,
             together, we build their problem state to help create their solution state.</p>
 
-        <h2 className='text-xl font-bold py-5'>What is hypnotherapy?</h2>
+        <h2 className='text-xl font-bold py-5'>What is Cognitive Hypnotherapy?</h2>
             <p className='pb-5'>
             Some people see the word <i>hypnotherapy</i> and are still determining what will be involved. Will I
             wave a pocket watch in front of you and make you burst into bouts of spontaneous chicken
@@ -24,6 +24,17 @@ const AboutHypnotherapy = () => {
             <p>
             As a QCH Therapist, I help your nervous system understand that you are safe and promote growth. 
             </p>
+            <br />
+            <p>Cognitive Hypnotherapy considers each client to be unique and each client to be experiencing their
+            protective behaviour - be that anxiety, low self-esteem, depression or another debilitating response
+            to the perception of threat. I work at the pace required by the client. Treatment is bespoke, caring
+            and flexible.
+            </p>
+            <br/>
+            <p>The fantastic thing about this therapy is that people often leave the first session feeling different. In
+            a way, it&#39;s like the butterfly effect - little changes starting to happen in your life, which gradually
+            grow into significant changes. I firmly believe that therapy is just another conversation, and I
+            approach each session with empathy and care.</p>
     </div>
   )
 }

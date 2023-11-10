@@ -22,6 +22,7 @@ type Formprops = {
     const [fullname, setFullname] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [submissionStatus, setSubmissionStatus] = useState("")
     
    const handleSubmit =  (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -32,9 +33,11 @@ type Formprops = {
       setEmail("")
       setFullname("")
       setMessage("")
+      setSubmissionStatus("success")
 
     }).catch((error) => {
       console.log(error.text)
+      setSubmissionStatus("error")
     })
    }
   }
@@ -97,10 +100,14 @@ type Formprops = {
         <br></br>
           <button 
           type='submit'
-          className='border-champagne-beige m-2 border rounded p-4'
+          className='bg-moonstone-beige m-2 border p-4 text-white transition-all hover:bg-champagne-beige text-white font-bold py-2 px-4 rounded'
           >
             Submit
           </button>
+          <div>
+          {submissionStatus === 'success' && <p className='text-green-500'>Form submitted successfully!</p>}
+          {submissionStatus === 'error' && <p className='text-red-500'>Form submission failed. Please try again.</p>}
+          </div>
   </form>
 
 </div>
