@@ -23,16 +23,21 @@ type Formprops = {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     
-   const handleSubmit = (e) => {
+   const handleSubmit =  (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    if (form.current) {
     emailjs.sendForm("service_sa68flb", "template_uriwvbb", form.current, 'NXMUCg8dkjdu3Rpe_').then((response) => {
       console.log(response.text);
+      setEmail("")
+      setFullname("")
+      setMessage("")
 
     }).catch((error) => {
       console.log(error.text)
     })
    }
+  }
 
 
   return (
@@ -55,7 +60,7 @@ type Formprops = {
             type='text'
             value={fullname}
             name="fullname"
-            className='border-moonstone border'
+            className='border-champagne-beige border'
             required
             onChange={(event) => setFullname(event.target.value)}
             />
@@ -68,7 +73,7 @@ type Formprops = {
             name="email"
             value={email}
             placeholder='Email...'
-            className='border-moonstone border'
+            className='border-champagne-beige border'
             onChange={(event) => setEmail(event.target.value)}
             required
 
@@ -84,7 +89,7 @@ type Formprops = {
             placeholder='Message...'
             rows={10}
             cols={60}
-            className='border-moonstone border'
+            className='border-champagne-beige border'
             onChange={(event) => setMessage(event.target.value)}
             required
 
@@ -92,7 +97,7 @@ type Formprops = {
         <br></br>
           <button 
           type='submit'
-          className='border-moonstone border rounded p-4'
+          className='border-champagne-beige m-2 border rounded p-4'
           >
             Submit
           </button>
@@ -103,17 +108,3 @@ type Formprops = {
 }
 
 export default Form
-
-
-// const handleSubmit = (e) => {
-//   e.preventDefault();
-
-//     emailjs.sendForm("service_sa68flb", "template_uriwvbb", form.current, 'NXMUCg8dkjdu3Rpe_')
-//     .then((response) => {
-//       console.log(response.text);
-//     })
-//     .catch((error) => {
-//       console.log(error.text)
-//     })
-//     };
-// };
