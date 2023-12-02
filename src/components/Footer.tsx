@@ -12,7 +12,7 @@ const Footer = () => {
   <div>
     <header className="footer-title flex flex-col md:w-1/3 text-moonstone ">About</header> 
     <p className='text-moonstone'>Mocean Therapy seeks to enable clients in their desire to lead their best lives possible.</p>
-    <p className='text-moonstone'>Using a range of modern, flexible approaches taken from CBT (Cognitive Behaviour Therapy) and NLP (Neuro Linguistic Programming) each client receives a bespoke service, tailored to their individual issue.</p>
+    <p className='text-moonstone'>Using modern techniques and interventions from a wide range of other approaches including CBT, Gestalt, NLP and positive psychology, each client receives a bespoke plan suited to their needs. </p>
   </div> 
   <nav>
     <header className="footer-title text-moonstone font-extrabold">Social</header> 

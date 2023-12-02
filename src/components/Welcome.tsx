@@ -5,7 +5,7 @@ const Welcome = () => {
     // <div className='flex h-36 bg-twitter-blue'>Welcome</div>
     <section>
       <div className='h-32 bg-dogwood flex items-center justify-center'>
-      <h1 className='text-moonstone text-xl font-roboto font-'>
+      <h1 className='text-moonstone text-[34px]  font-roboto md:text-[50px]'>
         Welcome to Mocean Therapy</h1>
 
       </div>

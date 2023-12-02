@@ -5,7 +5,7 @@ const Sessions = () => {
         <div className='pt-10 mx-10'>
         <div>
           <p className='text-xl font-bold py-5'>How long is a session?</p>
-          <p>Typical sessions will last 90 minutes.</p>
+          <p>Typically our first session will last 90 minutes and all future sessions are 60 minutes. </p>
           </div>
     
           <div>
