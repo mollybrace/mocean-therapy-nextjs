@@ -21,7 +21,7 @@ const Section = () => {
             
             <h2 className='font-bold'>About Me</h2>
             <p>I’m Oisin O’Malley, and I’m a passionate Cognitive Hypnotherapist residing in the vibrant city of
-            Vancouver, Canada. With a deep-rooted belief in the power of the mind and a genuine desire to help
+            Vancouver, Canada. <br></br><br></br>With a deep-rooted belief in the power of the mind and a genuine desire to help
             others, my journey into Cognitive Hypnotherapy was born out of a fascination with the intricate
             workings of the human mind.</p>
             <br></br>
@@ -55,7 +55,8 @@ const Section = () => {
                 </div>
                 <h2 className='font-bold'>How can I help you?</h2>
                 <p>Whether it’s managing stress, conquering fears, or breaking free from negative patterns, I’m here to
-                provide a safe, compassionate, and non-judgmental space for your transformation. I firmly believe
+                provide a safe, compassionate, and non-judgmental space for your transformation. 
+                <br></br><br></br>I firmly believe
                 that therapy is just another conversation and the fantastic thing about this conversation is often
                 people leave the first session feeling distinctive and curious about what they can accomplish.</p>
                 <a href="/booking"><p className='hover:cursor underline'>Book a free consultation</p></a>
