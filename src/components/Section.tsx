@@ -39,7 +39,7 @@ const Section = () => {
             />
             </div>
             <h2 className='font-bold'>Cognitive Hypnotherapy</h2>
-            <p>Cognitive Hypnotherapy is a modern approach developed to help people make the changes they want to make in their lives.<br></br> <br></br>Working at the pace of the client Cognitive Hypnotherapy draws on a range of diverse techniques and therapeutic modalities, with this, I tailor my view to create a bespoke approach that suits each individual&#39;s unique needs and goals.</p>
+            <p>Cognitive Hypnotherapy is a modern approach developed to help people make the changes they want to make in their lives.<br></br> <br></br>Working at the pace of the client Cognitive Hypnotherapy draws on a range of diverse techniques and therapeutic modalities, with this, I tailor my view to create a bespoke approach that suits each individual&apos;s unique needs and goals.</p>
             <a href="/contact"><p className='underline hover:cursor'>Contact me for more information</p></a>
         </div>
 

@@ -5,7 +5,7 @@ const AboutHypnotherapy = () => {
     <div className='mx-10 pb-10'>
       
         <h2 className='text-xl font-bold py-5'> Is Hypnotherapy For Me?</h2>
-            <p>In each session I ask myself two key questions, what&#39;s that about? And how can I use it? What this leads to is a way of working that is completely tailored to the client&#39;s way of thinking. Working with clients struggling with anxiety, depression, addiction, or stress. Cognitive Hypnotherapy is built on the principle of working within the client&#39;s model of the world. Therefore, I do not strictly work towards these &#39;labels&#39;. Instead, I approach each session with unconditional positive regard, and respect and hold space for each client so they feel comfortable and heard. </p>
+            <p>In each session I ask myself two key questions, what&apos;s that about? And how can I use it? What this leads to is a way of working that is completely tailored to the client&#39;s way of thinking. Working with clients struggling with anxiety, depression, addiction, or stress. Cognitive Hypnotherapy is built on the principle of working within the client&#39;s model of the world. Therefore, I do not strictly work towards these &#39;labels&#39;. Instead, I approach each session with unconditional positive regard, and respect and hold space for each client so they feel comfortable and heard. </p>
 
         <h2 className='text-xl font-bold py-5'>What is Cognitive Hypnotherapy?</h2>
             <p className='pb-5'>
@@ -13,7 +13,7 @@ const AboutHypnotherapy = () => {
             impressions? The answer is <strong>no</strong>. 
             </p>
             <p>
-            Trances are an everyday occurrence. Traditionally people talk about being put into hypnosis as if it&#39;s a special state, but we go in and out of trance all of the time. Trance is part of the thing you want to change. Stressed by something that shouldn&#39;t bother you? You&#39;re in a trance. We&#39;ll work to de-hypnotise you and put you back in control of your emotions. 
+            Trances are an everyday occurrence. Traditionally people talk about being put into hypnosis as if it&apos;s a special state, but we go in and out of trance all of the time. Trance is part of the thing you want to change. Stressed by something that shouldn&#39;t bother you? You&#39;re in a trance. We&#39;ll work to de-hypnotise you and put you back in control of your emotions. 
             </p>
             <br></br>
             <p>
