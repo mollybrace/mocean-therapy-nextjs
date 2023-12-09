@@ -44,13 +44,11 @@ type Formprops = {
 
 
   return (
-    <div className='flex items-center max-w-full pr-4 justify-center mt-10 mb-10'>
-      <div className=' w-full px-12 '>
-
-      <div className=' items-center justify-center rounded-lg block shadow text-center bg-dogwood/40 outline-none'>
+    <div className='flex flex-col items-center w-full pr-4 justify-center mt-10 mb-10'>
+      <div className='flex flex-col items-center  justify-center rounded-lg shadow text-center bg-dogwood/40 outline-none'>
 
        <form 
-        className='pr-10 flex-col items-center justify-center' 
+        className='pl-5 pr-5 justify-center flex flex-col items-center' 
         ref={form}
         onSubmit={handleSubmit}
         >
@@ -90,7 +88,7 @@ type Formprops = {
 
             />
           </div>
-
+          <div className='flex flex-col items-center'>
           <label 
             htmlFor="message"
             className='flex justify-center items-center font-bold pb-5'>Message</label>
@@ -106,9 +104,10 @@ type Formprops = {
             className='textarea-md textarea-bordered w-full max-w-lg bg-moonstone border border-blue-morelli rounded-lg shadow-lg p-5 flex justify-center '
             onChange={(event) => setMessage(event.target.value)}
             required
-
           />
             </div>
+            
+          </div>
         <br></br>
           <button 
           type='submit'
@@ -121,7 +120,6 @@ type Formprops = {
           {submissionStatus === 'error' && <p className='text-red-500'>Form submission failed. Please try again.</p>}
           </div>
   </form>
-      </div>
       </div>
 
 </div>
