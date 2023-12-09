@@ -18,13 +18,13 @@ const NavBar = () => {
                 <div className='flex w-full items-center justify-between h-16'>
                     <div className='flex items-center'>
                         <div className='flex-shrink-0'>
-                            <Link href="/" className='text-white'>
+                            <Link href="/" className='text-white font-bold'>
                                 Mocean Therapy
                             </Link>
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <div className='ml-4 flex items-center space-x-6'>
+                        <div className='ml-4 flex items-center space-x-9'>
                                 <Link 
                                 href="/"
                                 className='hover:underline rounded-lg p-2'>
