@@ -45,9 +45,9 @@ type Formprops = {
 
   return (
     <div className='flex items-center max-w-full pr-4 justify-center mt-10 mb-10'>
-      <div className=' w-full px-12'>
+      <div className=' w-full px-12 '>
 
-      <div className=' items-center justify-center rounded-lg block shadow text-center bg-dogwood/40 outline-none'>
+      <div className=' items-center md:ml-96 justify-center rounded-lg block shadow text-center bg-dogwood/40 outline-none'>
 
        <form 
         className='pr-10 flex-col items-center justify-center' 

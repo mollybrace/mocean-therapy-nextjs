@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div className='w-screen h-screen overflow-hidden'>
+      <div className='overflow-hidden'>
       <body className={roboto.className}>
         <main className='relative overflow-hidden bg-moonstone'>
           <NavBar />
