@@ -44,7 +44,7 @@ type Formprops = {
 
 
   return (
-    <div className='flex flex-col items-center w-full pr-4 justify-center mt-10 mb-10'>
+    <div className='flex flex-col items-center w-full pr-4 pl-4 justify-center mt-10 mb-10'>
       <div className='flex flex-col items-center  justify-center rounded-lg shadow text-center bg-dogwood/40 outline-none'>
 
        <form 
@@ -111,7 +111,7 @@ type Formprops = {
         <br></br>
           <button 
           type='submit'
-          className='bg-moonstone-beige m-2 border p-4 text-white transition-all hover:bg-dogwood text-white font-bold py-2 px-4 rounded shadow'
+          className='bg-moonstone-beige m-2 border p-4 text-white transition-all hover:bg-dogwood text-white font-bold py-2 px-4 rounded shadow pb-4'
           >
             Submit
           </button>
